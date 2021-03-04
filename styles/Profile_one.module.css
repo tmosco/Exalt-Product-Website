@@ -1,0 +1,16 @@
+.container{
+    background-color: red;
+}
+
+.container_1{
+    box-sizing: border-box;
+    padding:2px;
+    margin:5px;
+    
+
+}
+
+.container_1 Image{
+    width: 2px;
+    height: 2px;
+}
