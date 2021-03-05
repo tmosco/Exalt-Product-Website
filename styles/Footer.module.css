@@ -1,5 +1,6 @@
 .footer {
-  width: 100%;
+  width: 960px;
+  margin: 0 auto;
   height: 100px;
 position : relative;
   justify-content: center;
@@ -49,3 +50,41 @@ position : relative;
     width: 100%
   
   }
+
+
+
+
+
+  
+
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+ 
+
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 480px) {
+
+  /* .footer ul li a {
+    margin: 0px 5px;
+  }
+  .footer{
+    width: 100%;
+    margin: 0 0;
+  } */
+
+  .footer{
+    display:none
+  }
+
+}
+
+

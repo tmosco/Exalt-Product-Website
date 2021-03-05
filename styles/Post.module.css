@@ -16,87 +16,108 @@
 }
 
 .date {
-    display: flex;
-    background-color: eee;
-    color: red;
-    font-size: 14px;
-    padding: 10px;
+  display: flex;
+  background-color: eee;
+  color: red;
+  font-size: 14px;
+  padding: 10px;
 }
 
-
-
-
-
 .link {
-    padding: 5px;
-    background-color: #eeee;
-    font-size: 16px;
-    font-weight: bold;
+  padding: 5px;
+  background-color: #eeee;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .text {
-    background-color: #eeee;
-    overflow: hidden;
-    width: 303px;
-    height: 110px;
-    font-size: 14px;
-    text-align: center;
+  background-color: #eeee;
+  overflow: hidden;
+  width: 303px;
+  height: 110px;
+  font-size: 14px;
+  text-align: center;
 }
 
-.nameCard{
-    display: flex;
-    /* grid-template-columns: 50% 50%; */
+.nameCard {
+  display: flex;
+  /* grid-template-columns: 50% 50%; */
 }
 
-.info{
-    padding:10px;
-    
+.info {
+  padding: 10px;
 }
 
-.info_1{
-    font-size: 16px;
-    font-weight: bold;
+.info_1 {
+  font-size: 16px;
+  font-weight: bold;
 }
-.occupation{
-    font-size: 12px;
-}
-
-.nameCard img{
-    border-radius: 50%;
+.occupation {
+  font-size: 12px;
 }
 
-.post img{
-    box-shadow: black;
-    
+.nameCard img {
+  border-radius: 50%;
 }
 
+.post img {
+  box-shadow: black;
+}
 
+.loadButton {
+  background-color: rgb(14, 167, 238);
+  margin: 40px 370px;
+  font-size: 24px;
+  text-align: center;
+  padding: 22px 34px;
+  border-radius: 15px;
+}
+.loadButton:hover {
+    background-color: rgb(9, 10, 1);
+  }
 
 @media (max-width: 600px) {
- .wrapper{
-     display: inline;
- }
- .post Img{
-    box-shadow: black;
-    padding: 77px !important;
-    
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-    }
-   
-  
-  @media (max-width: 992) {
-   
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    /* display: inline; */
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 24px;
+    align-items: center;
+    grid-gap: 0px;
+  }
+  .loadButton {
+    margin: 15px 100px;
+  }
+  .post {
+    padding-bottom: 15px;
+  }
+  .date{
+      padding: 0px
+  }
+  .text{padding: 0px;}
+  .date p{
+      padding:0px;
   }
   
-  @media (max-width: 768px) {
-  
+.loadButton {
+font-size: 14px;
   }
-  
-  @media (max-width: 480) {
- .wrapper{
-     display: inline;
- }
-    }
-  
-   
+}
+
+/* .post Img{
+        box-shadow: black;
+        padding: 77px !important;
+        
+    } */

@@ -27,7 +27,7 @@ const PostList = ({ posts }) => {
         ))}
       </div>
 
-      {showMore && <button onClick={loadMore}> Load More </button>}
+      {showMore && <button className={postStyle.loadButton} onClick={loadMore}> Load More </button>}
     </>
   );
 };

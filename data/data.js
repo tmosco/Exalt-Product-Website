@@ -1,4 +1,4 @@
-export const posts = [
+ const posts = [
     {   id:1,
         placeholder: "https://via.placeholder.com/150",
         date: "March,2012",
@@ -181,3 +181,6 @@ export const posts = [
       
       
       ]
+
+
+      export default posts;

@@ -1,6 +1,10 @@
 import Head from "next/head";
-
+import posts from "../data/data";
 import PostList from "../components/PostList";
+
+
+
+
 
 export default function Home({ posts }) {
   return (
@@ -16,7 +20,7 @@ export default function Home({ posts }) {
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(`http://localhost:3000/api/posts`);
+  const res = await fetch(`https://api.jsonbin.io/b/604243710866664b10895086`);
   const posts = await res.json();
 
   return {
@@ -25,3 +29,5 @@ export const getStaticProps = async () => {
     },
   };
 };
+
+
