@@ -1,6 +1,7 @@
 import { useState } from "react";
 import postStyle from "../styles/Post.module.css";
 import PostItem from "./PostItem";
+
 var _ = require("lodash");
 
 const PostList = ({ posts }) => {
@@ -12,18 +13,22 @@ const PostList = ({ posts }) => {
 
   const loadMore = () => {
     const newIndex = index + Limit;
-    const newShowMore = newIndex < posts.legth - 1;
+    const newShowMore = newIndex < posts.length - 1;
     const newList = _.concat(list, _.slice(posts, index, newIndex));
     setIndex(newIndex);
     setList(newList);
     setShowMore(newShowMore);
   };
 
+
   return (
     <>
       <div className={postStyle.wrapper}>
-        {list.map((post) => (
-          <PostItem post={post} />
+        {list.map((postDetails) => (
+          <>
+  
+          <PostItem post={postDetails}/>
+          </>
         ))}
       </div>
 

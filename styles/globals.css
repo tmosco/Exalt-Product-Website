@@ -7,10 +7,20 @@ body {
 }
 
 a {
-  color: inherit;
+  color: black;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
 }
+
+
+/* :root{
+  box-sizing: border-box;
+}
+  *,
+  ::before,
+  ::after{
+    box-sizing: inherit;
+  } */

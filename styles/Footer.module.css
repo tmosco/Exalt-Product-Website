@@ -1,90 +1,114 @@
 .footer {
-  width: 960px;
-  margin: 0 auto;
-  height: 100px;
-position : relative;
-  justify-content: center;
-  align-items: center;
-  background-color: #000;
-  color: #eee;
+  display: grid;
+  grid-template-columns: 90% 10%;
+}
+
+.footerHeader {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column
 }
 
-
-.footer ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-  }
-
-
-  .footer ul li a {
-    margin: 5px 15px;
-  }
-
-  .youtube {
-    color: #eb3223;
-    margin: 5px 15px;
-  }
-  
-  .facebook {
-    color: #4968ad;
-    margin: 5px 15px;
-  }
-  
-  .twitter {
-    color: #49a1eb;
-    margin: 5px 15px;
-  }
-  
-  .instagram {
-    color: #eee;
-    margin: 5px 15px;
-  }
-
-  footer .borderline{
-    width: 100%
-  
-  }
-
-
-
-
-
-  
-
-
-@media (max-width: 992px) {
-
+.logo {
+  /* margin: 8px 15px;
+  */
+  padding: 10px 0px 0px 130px;
 }
 
-@media (max-width: 768px) {
- 
+.footerInfo {
+  display: grid;
+  grid-template-rows: 45% 10% 45%;
+  background-color: #101424;
 
+  /* min-height: 100px; */
 }
 
-@media (max-width: 600px) {
-
+.navlist {
+  /* background-color: red; */
 }
 
-@media (max-width: 480px) {
-
-  /* .footer ul li a {
-    margin: 0px 5px;
-  }
-  .footer{
-    width: 100%;
-    margin: 0 0;
-  } */
-
-  .footer{
-    display:none
-  }
-
+.navlist ul {
+  list-style-type: none;
+  padding: 20px 0;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
+.navlist ul li a {
+  /* margin: 5px 15px; */
+  display: block;
+  padding: 0.4em 2.5em;
+  color: #e5e5e5e5;
+}
 
+.disclaimer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.disclaimer ul {
+  display: flex;
+  font-size: 12px;
+  color: #d8d4d4;
+  /* padding: .4em 2.5em; */
+
+  color: #e5e5e5e5;
+  list-style-type: none;
+}
+
+/* .copyright{
+  margin-left: 15rem;
+
+} */
+
+.disclaimer ul li {
+  padding: 16px 66px;
+  color: #ffffff;
+}
+.disclaimer ul li a {
+  color: #ffffff;
+}
+
+.upArrow {
+  color: red;
+  margin: 0 auto;
+  background-color: #E5E5E5;
+}
+
+.fontIcons ul {
+  padding: 12px 1px;
+}
+
+.fontIcons ul li {
+  display: flex;
+  padding: 0 15px;
+}
+.youtube {
+  color: #eb3223;
+  margin: 0 0;
+  /* padding: .5em 1em; */
+}
+
+.facebook {
+  color: #4968ad;
+  margin: 0 0;
+}
+
+.twitter {
+  color: #49a1eb;
+  margin: 0 0;
+}
+
+.instagram {
+  color: #eee;
+  margin: 0 0;
+}
+
+.borderline {
+  /* background-color: blue; */
+  margin: 0px 29px 0px 112px;
+}
+
+.borderline hr {
+  background-color: #d8d4d4;
+  margin: 0px 0px;
+}

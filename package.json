@@ -8,10 +8,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "lodash": "^4.17.21",
+    "mdbreact": "^5.0.1",
     "next": "10.0.7",
     "next-compose-plugins": "^2.2.1",
     "next-images": "^1.7.0",

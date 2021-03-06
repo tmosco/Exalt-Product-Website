@@ -2,10 +2,6 @@ import Head from "next/head";
 import posts from "../data/data";
 import PostList from "../components/PostList";
 
-
-
-
-
 export default function Home({ posts }) {
   return (
     <>
