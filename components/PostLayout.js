@@ -1,6 +1,6 @@
-import PostNav from './PostNav';
-import Footer from '../../../../components/Footer';
-import styles from "../../../../styles/Layout.module.css";
+import PostNav from './PostNav'
+import Footer from './Footer'
+import styles from "../styles/Layout.module.css";
 
 
 const PostLayout = ({children}) => {

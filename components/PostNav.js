@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import navStyles from "../../../../styles/PostNav.module.css"
-import Logo from "../../../../components/Logo"
+import navStyles from "../styles/PostNav.module.css"
+import Logo from "./Logo"
 
 
 const PostNav = () => {

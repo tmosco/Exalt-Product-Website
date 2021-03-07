@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import Image from "next/image";
-import style from "../../../styles/PostId.module.css";
+import style from "../styles/PostId.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faYoutube,
@@ -15,14 +16,14 @@ const PostId = ({ post }) => {
       <div className={style.container}>
         <div className={style.dark}></div>
         <div className={style.wrapper}>
+            <Link href="/">
           <div className={style.backLink}>
-            <Link href="http://localhost:3000">
               <>
                 <MDBIcon className="arrow-left" icon="arrow-left" size="2x" />
                 <h4>Return to article page </h4>
               </>
-            </Link>
           </div>
+            </Link>
           <div className={style.date}>
             <p className={style.product}> Product - </p>
             <p> 4 March, 2020</p>
