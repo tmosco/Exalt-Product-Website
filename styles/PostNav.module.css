@@ -1,0 +1,40 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #101424;
+  color: #e5e5e5;
+}
+.header {
+  margin: 8px 15px;
+}
+
+.nav {
+  display: flex;
+}
+
+.navlink {
+  display: flex;
+  padding: 0.5em;
+  justify-content: flex-end;
+  background-color: #101424;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav > li {
+  margin-top: 0;
+}
+
+.nav ul li a {
+  display: block;
+  padding: 0.5em 1em;
+  color: #ffffff;
+}

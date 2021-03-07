@@ -3,24 +3,26 @@ import Image from "next/image";
 import postStyle from "../styles/Post.module.css";
 
 const PostItem = ({ post }) => {
+
+
   return (
     <>
       {post.id === 1 ? (
         <div className={postStyle.firstpost}>
-          <div className={postStyle.firstPics}>
+         
             <Image
               src={`/pic${post.id}.jpg`}
               alt="Picture of the author"
-              width={623}
+              width={700}
               height={383.41}
               className={postStyle.firstImage_2}
               layout="intrinsic"
             />
-          </div>
+        
           <div className={postStyle.firstMessage}> 
             <div className={postStyle.firstDate}>
-              <p className={postStyle.fistProduct}> Product - </p>
-              <p> {post.date}</p>
+              <p className={postStyle.firstProduct} > Product - </p>
+              <p > {post.date}</p>
             </div>
             <Link href="/post/[id]" as={`/post/${post.id}`}>
               <a className={postStyle.firstLink}>{post.Title}</a>

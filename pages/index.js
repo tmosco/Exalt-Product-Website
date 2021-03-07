@@ -1,16 +1,19 @@
 import Head from "next/head";
 import posts from "../data/data";
 import PostList from "../components/PostList";
+import Layout from "../components/Layout";
 
 export default function Home({ posts }) {
   return (
     <>
-      <div>
-        <title>Exalt Product Website</title>
+      <Layout>
         <div>
-          <PostList posts={posts} />
+          <title>Exalt Product Website</title>
+          <div>
+            <PostList posts={posts} />
+          </div>
         </div>
-      </div>
+      </Layout>
     </>
   );
 }
@@ -25,5 +28,3 @@ export const getStaticProps = async () => {
     },
   };
 };
-
-

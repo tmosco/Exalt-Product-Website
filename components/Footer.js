@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import footerStyles from "../styles/Footer.module.css";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,18 +12,20 @@ import Logo from "./Logo";
 import { MDBIcon } from "mdbreact";
 
 const Footer = () => {
+  const goTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
 
-  const goTop =()=>{
-    console.log(`Go top`);
-  }
-  
   return (
     <>
       <footer className={footerStyles.footer}>
         <div className={footerStyles.footerInfo}>
           <div className={footerStyles.footerHeader}>
             <div className={footerStyles.logo}>
-              <Logo/>
+              <Logo />
             </div>
             <div className={footerStyles.navlist}>
               <ul>

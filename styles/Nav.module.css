@@ -10,7 +10,6 @@
   display: flex;
 }
 
-
 .navlink {
   display: flex;
   padding: 0.5em;
@@ -33,7 +32,6 @@
 }
 
 .nav ul li a {
-  /* margin: 5px 15px; */
   display: block;
   padding: 0.5em 1em;
   color: #000;

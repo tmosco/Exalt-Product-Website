@@ -24,7 +24,6 @@
   display: grid;
   grid-template-columns: 50% 50%;
   grid-column-gap: 30px;
-  /* height: 100px; */
 }
 
 .firstDate {
@@ -38,16 +37,15 @@
   padding: 0px;
 }
 
-.firstDate p:first-of-type {
+.firstProduct {
   color: #fd0e31;
   font-weight: bold;
 }
-
-.firstPics {
+.firstpost Img {
+  object-fit: cover;
 }
 
 .firstMessage {
-  /* background-color: yellow; */
   display: grid;
   grid-row-gap: 0.625rem;
   padding-right: 1.875rem;
@@ -68,7 +66,7 @@
 
 .nameCard {
   display: grid;
-  grid-template-columns: 60px auto;
+  grid-template-columns: 73px auto;
   grid-column-gap: 15px;
   padding: 1.875rem 0;
 }
@@ -77,14 +75,15 @@
   border-radius: 50%;
 }
 
-.firstNameCard{
-    display: grid;
-    grid-template-columns: 75px auto;
-    grid-column-gap: 15px;
-  }
+.firstNameCard {
+  display: grid;
+  grid-template-columns: 75px auto;
+  grid-column-gap: 15px;
+}
 
-  .firstNameCard img{
-      border-radius :50%  }
+.firstNameCard img {
+  border-radius: 50%;
+}
 
 .firstInfo {
   padding: 10px 0;
@@ -98,7 +97,6 @@
   font-size: 1rem;
 }
 
-
 .post {
   display: grid;
   grid-template-rows: repeat (5, 1fr);
@@ -111,17 +109,16 @@
   color: #000;
 }
 
-.text{
-    overflow: hidden;
-    height: calc(9rem + 1vh)
+.text {
+  overflow: hidden;
+  height: calc(9rem + 1vh);
 }
 
 .loadButton {
-    background-color:#101424;
-    color:#FFFF;
-    margin: 14px 430px;
-    font-size: 1rem;
-    text-align: center;
-    padding: 14px 33px;
-
-  }
+  background-color: #101424;
+  color: #ffff;
+  margin: 14px 430px;
+  font-size: 1rem;
+  text-align: center;
+  padding: 14px 33px;
+}

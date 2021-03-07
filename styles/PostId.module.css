@@ -1,0 +1,99 @@
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 960px;
+  margin: -385px 0px 1px 80px;
+}
+
+.dark {
+  height: 400px;
+  background-color: #101424;
+}
+
+.backLink {
+  display: flex;
+  background-color: #101424;
+  align-items: flex-end;
+  padding: 40px 0;
+  color: #ffffff;
+}
+
+.backLink h4 {
+  margin: 0 30px;
+  cursor: pointer;
+}
+
+.date {
+  display: flex;
+  color: #fd0e31;
+  font-size: 1em;
+  background-color: #101424;
+}
+
+.date p {
+  margin: 0.313rem;
+  padding: 0px;
+}
+
+.product {
+  color: #fd0e31;
+  font-weight: bold;
+}
+
+.title {
+  background-color: #101424;
+  font-size: 33px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.imageInPara {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 10px;
+}
+
+.paragraph {
+  padding: 40px 0;
+}
+
+.nameCard {
+  display: grid;
+  grid-template-columns: 60px auto;
+  grid-column-gap: 15px;
+  padding: 0 80px;
+}
+
+.nameCard img {
+  border-radius: 50%;
+}
+
+.info {
+  padding: 10px 0;
+}
+
+.info_1 {
+  font-size: 1.3rem;
+}
+
+.Occupation {
+  font-size: 1rem;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.fontIcons ul {
+  display: flex;
+}
+
+.fontIcons ul li {
+  padding: 3px 10px;
+  list-style: none;
+}

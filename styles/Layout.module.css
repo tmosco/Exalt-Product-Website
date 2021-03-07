@@ -1,11 +1,9 @@
 .container {
-    background-color: #eeeeee;
-    width: 1080px;
-    margin: 0 auto;
-    font-family:sans-serif;
+  background-color: #eeeeee;
+  width: 1080px;
+  margin: 0 auto;
+  font-family: sans-serif;
 }
-.main{
-/* background-color: blue; */
-/* display: flex; */
-background-color: #E5E5E5;
+.main {
+  background-color: #e5e5e5;
 }

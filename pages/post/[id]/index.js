@@ -1,13 +1,19 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+import PostId from './PostId'
+import PostLayout from './components/PostLayout'
+
+
+
 
 const post = ({ post }) => {
   return (
     <>
-      <Link href="/">Return to article page</Link>
-      <h1>{post.title}</h1>
-      <p>{post.body}</p>
-      <br />
+    <PostLayout>
+
+    <PostId post={post}/>
+    </PostLayout>
+   
     </>
   );
 };
